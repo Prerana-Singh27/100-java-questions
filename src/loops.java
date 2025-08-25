@@ -2,7 +2,7 @@
 
 import java .util.scanner*;
 public class loops{
-public 
+public static void main (String[] args)
 
 }
 
