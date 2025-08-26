@@ -45,3 +45,34 @@ public class loops {
         }
     }
 }
+
+
+//4. for loop to finding prime or not
+
+import java.util.Scanner;
+public class loops {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("CHECKING IF NUM IS PRIME OR NOT ");
+        System.out.print("Enter your num :");
+        int num = input.nextInt();
+        boolean isPrime = findPrimeNum(num);
+        if (isPrime) {
+            System.out.println(num + " is a prime number ");
+        } else {
+            System.out.println(num + " is NOT a prime number ");
+        }
+
+    }
+    public static boolean findPrimeNum(int num) {
+        if (num <= 1){
+            return false;
+        }
+        for (int i = 2; i < num; i++) {
+            if (num % i == 0) {
+                return false;
+            }
+        }
+            return true;
+
+    }
