@@ -14,4 +14,18 @@ Scanner input = new scanner(System.in);
 }
 }
 
+// 2. // number guessing game
 
+import java.util.Scanner;
+public class loops {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("WELCOME TO NUMBER GUESSING GAME ");
+        int num = 5, guess;
+        do {
+            System.out.println("Enter number between 0-10 : ");
+            guess = input.nextInt();
+        } while (num != guess);
+        System.out.println("Access granted!!!!");
+    }
+}
