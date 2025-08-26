@@ -29,3 +29,19 @@ public class loops {
         System.out.println("Access granted!!!!");
     }
 }
+
+ //3. for loop to finding multiplication table
+
+import java.util.Scanner;
+public class loops {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("WELCOME TO MULTIPLICATION TABLE ");
+        System.out.print("Enter your num :");
+        int num = input.nextInt();
+        for (int i = 1; i <= 10; i++) {
+            int mul = num * i;
+            System.out.println( + num + "*" +i+ " = " + mul);
+        }
+    }
+}
