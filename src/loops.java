@@ -77,7 +77,7 @@ public class loops {
 
     }
         
- // for - each loop --find maximum element in an array
+ //4.  for - each loop --find maximum element in an array
 
         public class loops {
     public static void main(String[] args) {
