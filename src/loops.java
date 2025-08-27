@@ -76,3 +76,9 @@ public class loops {
             return true;
 
     }
+
+
+        public class loops {
+    public static void main(String[] args) {
+        System.out.println("WELCOME TO FINDING THE MAX ");
+        int[] arr = ArrayUtility.inputArray();
