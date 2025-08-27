@@ -76,7 +76,8 @@ public class loops {
             return true;
 
     }
-
+        
+ // for - each loop --find maximum element in an array
 
         public class loops {
     public static void main(String[] args) {
