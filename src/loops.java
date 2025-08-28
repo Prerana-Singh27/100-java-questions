@@ -149,6 +149,22 @@ int[] numArr = ArrayUtility.inputArray();
  }
 }
 
+// 9. using continue to print all even number and skip odd numbers
+
+import java.util.Scanner;
+public class loops {
+    public static void main(String[] args) {
+       for(int i = 1; i <= 100; i++)  {
+           if(i % 2 == 1){
+               continue;
+           }
+           System.out.println(i);
+    }
+    }
+}
+
+
+
         
 
         
