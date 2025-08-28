@@ -132,4 +132,23 @@ public class loops{
     }
 }
 
+// 8. using continue to sum all positive number
+
+public class loops{
+ public static void main(String[] args) {
+ System.out.println("WELCOME TO ADDING POSITIVE NUMBER  : ");  
+int[] numArr = ArrayUtility.inputArray();
+         int sum = 0;
+         for(int num : numArr){
+                 if (num < 0){
+                         continue;
+                 }
+                 sum += num
+        }
+ System.out.println("SUM OF POSITIVE NUMBERS ARE   : " + sum);
+ }
+}
+
+        
+
         
