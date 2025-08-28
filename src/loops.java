@@ -115,4 +115,21 @@ public class loops {
                  return occ;
          }
 
+//7. using break read inputs from user
+
+import java.util.Scanner;
+public class loops{
+    public static void main(String[] args) {
+        Scanner input =new Scanner(System.in);
+        while (true) {
+            System.out.println("Enter your Command : ");
+            String command = input.next();
+            if (command.equals("exit")) {
+                break;
+            }
+        }
+        System.out.println("you have successfully exited ");
+    }
+}
+
         
