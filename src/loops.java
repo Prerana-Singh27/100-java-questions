@@ -93,3 +93,26 @@ public class loops {
         System.out.println("Maximum number is " + max);
     }
 }
+
+// 5. for - each --- finding num of occurrences in an element of array
+        import java.util.Scanner;
+public class loops {
+    public static void main(String[] args) {
+        System.out.println("WELCOME TO FINDING THE OCCURRENCES OF ELEMENT  ");
+        int[] numArray = ArrayUtility.inputArray();
+             System.out.println("ENTER THE NUM YOU WANT TO FIND ");
+            int num = input.nextInt();
+            int occ = noOfOcc(numArray , num);
+            System.out.println("your no was found  " +occ + " times");
+    }
+         public static int noOfOcc(int[] numArray , int num){
+                 int occ = 0;
+                 for(int nums : numArray){
+                         if(nums == num){
+                                 occ++;
+                         }
+                 }
+                 return occ;
+         }
+
+        
