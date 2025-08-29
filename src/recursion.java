@@ -31,4 +31,15 @@ public class loops {
         String  str  = input.next();
          System.out.print("YOUR STRING IS " +((isPalindrome(str) ? "Palindrome" : " Not Palindrome")));
     }
-    public static
+    public static boolean isPalindrome(string  str) {
+        if (str.length() <= 1 ) {
+            return true;
+        }
+        int lastPos = str.length - 1;
+        if (str.charAt(0) != str.charAt(lastPos) ) {
+            return false;
+        }
+        String newStr = str.substring(1,lastPos);
+        retrun isPalindrome(newStr);
+    }
+}
