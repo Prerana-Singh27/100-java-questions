@@ -37,3 +37,27 @@ public class string {
         System.out.println("your circle circumFerence is " +circumFerence);
     }
 }
+
+// another method
+
+import java.util.Scanner;
+class string {
+    double radius;
+    //constructor
+    string(double radius) {
+        this.radius = radius;
+    }
+    double circumference() {
+        return 2 * radius * Math.PI;
+    }
+    public String toString(){
+        return "Circle props : " + radius +" , circumference: " + circumference() ;
+    }
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("please enter your radius : ");
+        double radius = input.nextDouble();
+        string circle = new string(radius);
+        System.out.println(circle);
+    }
+}
