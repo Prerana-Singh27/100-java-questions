@@ -18,3 +18,13 @@ public String toString() {
   }
 }
     
+//concatenate and convert : take 2 string and also covert uppercase
+
+public class string{
+    public static void main(String[] args){
+        String firstName = "shruti";
+        String lastName = "singh";
+        String fullName = firstName.concat(" ").concat(lastName);
+        System.out.println(fullName.toUpperCase());
+    }
+}
