@@ -21,7 +21,7 @@ public class loops {
     }
     }
 
-// 11. . using recursion to display palindrome
+// 11. . using recursion to display if string is a palindrome or not 
 import java.util.scanner*;
 public class loops {
     public static void main(String[] args) {
