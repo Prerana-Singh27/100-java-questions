@@ -28,3 +28,12 @@ public class string{
         System.out.println(fullName.toUpperCase());
     }
 }
+
+//calculate area and circumference of a circle for given radius
+public class string {
+    public static void main(String[] args) {
+        double radius = 20;
+        double circumFerence = 2 * Math.PI * radius ;
+        System.out.println("your circle circumFerence is " +circumFerence);
+    }
+}
