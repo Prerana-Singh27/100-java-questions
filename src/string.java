@@ -61,3 +61,18 @@ class string {
         System.out.println(circle);
     }
 }
+
+//stimulate a dice roll using math.random() and display outcome(1-6)
+
+class string {
+    int roll() {
+        double random = Math.random() * 6;
+        return (int) Math.ceil(random);
+    }
+    public static void main(String[] args) {
+        string dice = new string();
+        for (int i = 0; i < 10; i++) {
+            System.out.println(dice.roll());
+        }
+    }
+}
