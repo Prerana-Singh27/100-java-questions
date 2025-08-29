@@ -20,3 +20,15 @@ public class loops {
         return fibonacci(position-1) + fibonacci(position-2);
     }
     }
+
+// 11. . using recursion to display palindrome
+import java.util.scanner*;
+public class loops {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("WELCOME TO FINDING PALINDROME ");
+        System.out.print("ENTER THE STRING YOU WANT TO CHECKED  :");
+        String  str  = input.next();
+         System.out.print("YOUR STRING IS " +((isPalindrome(str) ? "Palindrome" : " Not Palindrome")));
+    }
+    public static
