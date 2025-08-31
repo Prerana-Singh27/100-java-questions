@@ -91,3 +91,17 @@ class string {
         System.out.println(sb);
     }
 }
+
+/with final fields create object and a constructor
+
+class string {
+    final int noOfWheels;
+    final String model;
+
+    public string(int noOfWheels , String model) {
+        this.noOfWheels = noOfWheels;
+        this.model = model;
+    }
+
+}
+
