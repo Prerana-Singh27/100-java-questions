@@ -1,4 +1,4 @@
-// define student class with fields like name and age and use toString to print student details 
+1. // define student class with fields like name and age and use toString to print student details 
 
 public class string{
   String name;
@@ -29,7 +29,7 @@ public class string{
     }
 }
 
-//calculate area and circumference of a circle for given radius
+2. //calculate area and circumference of a circle for given radius
 public class string {
     public static void main(String[] args) {
         double radius = 20;
@@ -38,7 +38,7 @@ public class string {
     }
 }
 
-// another method
+2(a) // another method
 
 import java.util.Scanner;
 class string {
@@ -62,7 +62,7 @@ class string {
     }
 }
 
-//stimulate a dice roll using math.random() and display outcome(1-6)
+3. //stimulate a dice roll using math.random() and display outcome(1-6)
 
 class string {
     int roll() {
@@ -77,7 +77,7 @@ class string {
     }
 }
 
-//array of words & concatenate them into a single string
+4. //array of words & concatenate them into a single string
 
 class string {
     public static void main(String[] args) {
@@ -92,7 +92,7 @@ class string {
     }
 }
 
-//with final fields create object and a constructor
+5. //with final fields create object and a constructor
 
 class string {
     final int noOfWheels;
