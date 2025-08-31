@@ -92,7 +92,7 @@ class string {
     }
 }
 
-/with final fields create object and a constructor
+//with final fields create object and a constructor
 
 class string {
     final int noOfWheels;
