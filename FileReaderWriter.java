@@ -20,3 +20,31 @@ public class FileWriterdemo {
 }
 
 
+// FILE READER
+
+package FileReader;
+
+import java.io.FileReader;
+import java.util.Scanner;
+import java.io.IOException;
+
+ class readFile {
+
+
+    public static void main(String[] args)  {
+        Scanner input = new Scanner(System.in);
+        System.out.println("PLEASE ENTER THE NAME OF THE FILE");
+        String fileName = input.next();
+
+        try (FileReader reader = new FileReader (fileName)) {
+            int read;
+            while ((read = reader.read()) != -1) {
+                System.out.println((char)read);
+            }
+        } catch (IOException exception) {
+            System.out.printf("EXCEPTION OCCURRED: %s",exception.getMessage());
+        }
+
+
+    }
+}
