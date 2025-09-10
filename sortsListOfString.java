@@ -1,4 +1,4 @@
-
+//write--program--sorts a list of string objects in descending order--using a Custom comparator
 package Collection;
 
 import java.util.*;
