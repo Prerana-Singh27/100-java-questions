@@ -1,4 +1,4 @@
-//Collection class to count freq of elementin ArrarList
+//Collection class to count freq of elementin ArrarList.
 
 package Collection;
 
