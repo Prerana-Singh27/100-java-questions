@@ -1,4 +1,4 @@
-
+//takes string returns no of unique characters using a set
 package Collection;
 
 import java.util.HashSet;
