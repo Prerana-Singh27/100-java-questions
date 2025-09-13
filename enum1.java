@@ -1,4 +1,4 @@
-//crea
+//create MAP--keys are country , values are capitals
 package seeEnum;
 
 import java.util.HashMap;
