@@ -5,12 +5,13 @@ package functionalProgramming;
 
 import java.util.List;
 
-public class filterString {
-    public static void main(String[] args) {
-        List<String> strs = List.of("SHOBHASINGH" , "PRERANA" , "SHRUTISINGH");
+import java.util.stream.Stream;
 
-      String result =   strs.stream().filter(name -> name.length() > 10)
-                .reduce( "", (a , b) -> a + " " + b);
-        System.out.println(result);
+public class stream {
+    public static void main(String[] args) {
+        List<String> names = List.of("APPLE", "BANANA", "GRAPES");
+        names.stream()
+                .forEach(name -> System.out.println(name));
     }
 }
+
