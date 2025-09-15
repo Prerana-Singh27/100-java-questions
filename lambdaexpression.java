@@ -1,3 +1,6 @@
+//write lambda expression --takes 2 integers ---return multiplication---
+
+
 package functionalProgramming;
 
 import java.util.function.BinaryOperator;
