@@ -1,3 +1,6 @@
+//convert an array of string into stream
+
+
 package functionalProgramming;
 
 import java.util.List;
