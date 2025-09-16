@@ -1,4 +1,4 @@
-//write lambda expression --takes 2 integers ---return multiplication---
+//write lambda expression --takes 2 integers ---return multiplication--
 
 
 package functionalProgramming;
