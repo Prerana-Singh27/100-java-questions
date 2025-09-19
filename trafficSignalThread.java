@@ -1,3 +1,5 @@
+//create three thread signals-red,green,yellow
+
 package thread;
 
 public enum TraffiColor {
