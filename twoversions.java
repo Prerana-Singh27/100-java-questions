@@ -1,3 +1,5 @@
+//write 2 versions--calculates--factorial of number--using structural programming--
+
 package functionalInterface;
 
 import java.util.Scanner;
