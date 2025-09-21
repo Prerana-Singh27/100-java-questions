@@ -1,4 +1,4 @@
-//write function--accept string,return Optional<string>--string empty/null-return emptyOptional--return optional containing the uppercase version of the string.
+//write function--accept string,return Optional<string>--string empty/null-return emptyOptional--return optional containing the uppercase version of the string..
 
 
 package functionalInterface;
