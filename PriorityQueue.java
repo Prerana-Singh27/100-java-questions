@@ -1,4 +1,4 @@
-//priorityqueue of a custom class Student with name and age
+//priorityqueue of a custom class Student with name and age...
 package Collection;
 
 import java.util.Comparator;
