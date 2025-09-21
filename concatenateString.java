@@ -1,4 +1,4 @@
-//write--method--concatenate String--variable arguments of string type ---concatenates them into a single string.
+//write--method--concatenate String--variable arguments of string type ---concatenates them into a single string....
 package Collection;
 class challenge1 {
     public static String concatenate(String...elements) {
