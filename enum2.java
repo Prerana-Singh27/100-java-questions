@@ -1,4 +1,4 @@
-// create enum represent days of week,prints out all days of the week
+// create enum represent days of week , prints out all days of the week
 
 package seeEnum;
 
