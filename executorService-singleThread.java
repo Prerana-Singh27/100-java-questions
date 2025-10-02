@@ -1,4 +1,4 @@
-//creates single-thread--prints 1 to 10
+//creates single-thread-----prints 1 to 10
 
 package ExecutorService;
 
