@@ -1,4 +1,4 @@
-//2D ARRAY - FINDING SUM AND AVERAGE OF ELEMENTS...
+//2D ARRAY - FINDING SUM AND AVERAGE OF ELEMENTS..
 import java.util.Scanner;
 public class Array2Dques2 {
     public static void main(String[] args) {
