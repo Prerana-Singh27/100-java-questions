@@ -1,4 +1,4 @@
-// write a program to read a fileName from user---display content--
+// write a program to read a fileName from user---display content-
 
 // FILE WRITER
 
