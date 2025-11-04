@@ -9,7 +9,7 @@ public enum Day {
     Wednesday(true),
     Thursday(true),
     Friday(true),
-    Saturday(false),;
+    Saturday(false),
 
     private final boolean isWeekday;
 
